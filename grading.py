@@ -92,7 +92,7 @@ def gpa(grades):
         else:
             quality_points = quality_points + 0
     answer = quality_points / credit_total
-       gpa = round(answer, 2)
+    gpa = round(answer, 2)
     if gpa > 4.0:
         gpa = 4.0
 
