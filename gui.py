@@ -88,7 +88,7 @@ class Gui:
 
         self.exception_text.config(text="")
         self.top1 = Toplevel()
-        self.top1.title(self.student_entry.get().strip() + "'s " + "Grades")
+        self.top1.title(self.student_entry.get().strip().upper() + "'s " + "Grades")
         self.top1.geometry('310x300')
 
         history_frame = Frame(self.top1)
